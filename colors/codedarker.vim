@@ -1,5 +1,6 @@
 " Vim Code Darker (color scheme)
 " https://github.com/reini-1/vim-code-darker
+" based on codedark scheme by Tomas Iser (https://github.com/tomasiser)
 
 scriptencoding utf-8
 

@@ -1,5 +1,6 @@
 " Vim Code Darker (lightline colorscheme)
 " https://github.com/reini-1/vim-code-darker
+" based on codedark scheme by Tomas Iser (https://github.com/tomasiser)
 
 let s:term_red = 204
 let s:term_green = 114

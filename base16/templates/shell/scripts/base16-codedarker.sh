@@ -1,14 +1,15 @@
 #!/bin/sh
 # base16-shell (https://github.com/chriskempson/base16-shell)
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
-# codedark scheme by Tomas Iser (https://github.com/tomasiser)
+# codedarker scheme by Reini (https://github.com/reini-1/vim-code-darker)
+# based on codedark scheme by Tomas Iser (https://github.com/tomasiser)
 
 # This script doesn't support linux console (use 'vconsole' template instead)
 if [ "${TERM%%-*}" = 'linux' ]; then
     return 2>/dev/null || exit 0
 fi
 
-color00="1E/1E/1E" # Base 00 - Black
+color00="00/00/00" # Base 00 - Black
 color01="D1/69/69" # Base 08 - Red
 color02="60/8B/4E" # Base 0B - Green
 color03="D7/BA/7D" # Base 0A - Yellow

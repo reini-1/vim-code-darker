@@ -1,8 +1,9 @@
 Windows Registry Editor Version 5.00
 
-; Base16 codedark
-; schema by Tomas Iser (https://github.com/tomasiser)
-[HKEY_CURRENT_USER\Software\SimonTatham\PuTTY\Sessions\codedark]
+; Base16 codedarker
+; schema by Reini (https://github.com/reini-1/vim-code-darker)
+; based on codedark scheme by Tomas Iser (https://github.com/tomasiser)
+[HKEY_CURRENT_USER\Software\SimonTatham\PuTTY\Sessions\codedarker]
 
 ; Default Foreground
 "Colour0"="212,212,212"
@@ -11,22 +12,22 @@ Windows Registry Editor Version 5.00
 "Colour1"="212,212,212"
 
 ; Default Background
-"Colour2"="30,30,30"
+"Colour2"="0,0,0"
 
 ; Default Bold Background  -- equals to non-bold
-"Colour3"="30,30,30"
+"Colour3"="0,0,0"
 
 ; Cursor Text -- equals to default background
-"Colour4"="30,30,30"
+"Colour4"="0,0,0"
 
 ; Cursor Colour -- equals to default foreground
 "Colour5"="212,212,212"
 
 ; ANSI Black
-"Colour6"="30,30,30"
+"Colour6"="0,0,0"
 
 ; ANSI Black Bold
-"Colour7"="60,60,60"
+"Colour7"="30,30,30"
 
 ; ANSI Red
 "Colour8"="209,105,105"
